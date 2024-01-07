@@ -1,10 +1,13 @@
 body{
     background-color: #f9faf8;
     margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-decoration-style: none;
 }
 
 section{
-    padding-left: 2rem;
+    padding-left: 4rem;
     padding-right: 4rem;
 }
 
@@ -37,12 +40,36 @@ section{
     background-color: #1f2937;
     display: flex;
     gap: 2rem;
+    padding-top: 2rem;
+    align-items: center;
 }
 
 .hero-section >*{
     flex: 1 1 0%;
     flex-basis: 0%;
 }
+
+.hero-section h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero-section p{
+    font-size: 18px;
+    font-weight: 200;
+    color: #e5e7eb;
+}
+
+.hero-section a{
+    font-size: 20px;
+    font-weight: 200;
+    background-color: #1e6ccd;
+    color: #f9faf8;
+    padding: 0.8rem 1rem;
+    border-radius: 0.8rem;
+}
+
  .photo img{
     width: 100%;
  }
