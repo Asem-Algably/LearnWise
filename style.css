@@ -32,3 +32,17 @@ section{
 .navbar :nth-child(2){
     margin-left: auto;
 }
+
+.hero-section{
+    background-color: #1f2937;
+    display: flex;
+    gap: 2rem;
+}
+
+.hero-section >*{
+    flex: 1 1 0%;
+    flex-basis: 0%;
+}
+ .photo img{
+    width: 100%;
+ }
