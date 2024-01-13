@@ -9,12 +9,13 @@ a {
 }
 
 section{
-    padding: 6rem 2rem;
+    padding: 3rem 6rem;
 }
 
 .navbar{
     background-color: #1f2937;
     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     font-family:Arial, sans-serif;
     color: #f9faf8;
     display: flex;
@@ -69,6 +70,7 @@ section{
     color: #f9faf8;
     padding: 0.8rem 1rem;
     border-radius: 0.8rem;
+    margin: 0.5rem 0rem;
 }
 
  .photo img{
