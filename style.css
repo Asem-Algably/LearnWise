@@ -2,13 +2,14 @@ body{
     background-color: #f9faf8;
     margin: 0;
     font-family: sans-serif;
+}
+
+a {
     text-decoration: none;
-    text-decoration-style: none;
 }
 
 section{
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding: 6rem 2rem;
 }
 
 .navbar{
